@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import '../Styles/Notes.css'
+import '../styles/Notes.css'
 import '../styles/index.css'
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
