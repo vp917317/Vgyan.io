@@ -1,0 +1,83 @@
+/* styles.css */
+.circle-heading {
+    display: inline-block; /* Make the heading inline-block so the circle surrounds it */
+    padding: 10px;
+    font-size: 34px;
+    color: #40e0d0;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20;
+    text-decoration: underline;
+
+  }
+
+  .circle-keyHeading {
+    display: inline-block; /* Make the heading inline-block so the circle surrounds it */
+    background-color: red;
+  background-image:
+    linear-gradient(
+      to right,
+      rgb(156, 216, 168),
+      rgb(209, 161, 97) 10%
+    );
+    border: 2px solid #333; /* Border around the circle */
+    border-radius: 50%; /* Make the border a circle using border-radius */
+    padding: 10px;
+    font-size: 24px;
+    color: rgb(31, 20, 20);
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15;
+
+  }
+
+  .circle-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .circle-paragraph {
+    display: inline-block; /* Make the heading inline-block so the circle surrounds it */
+    /* background-color:rgba(255, 99, 71, 0.5); */
+    border: 4px solid #25d611; /* Border around the circle */
+    border-radius: 15%; /* Make the border a circle using border-radius */
+    padding: 10px;
+    font-size: 14px;
+    color: white; 
+    font-weight: 500;
+    font-style: italic;
+   }
+  
+   .circle-keyPoints {
+    display: inline-block; /* Make the heading inline-block so the circle surrounds it */
+    /* background-color: #f0f0f0; Background color of the circle */
+    border: 5px solid #0530b4; /* Border around the circle */
+    border-radius: 5%; /* Make the border a circle using border-radius */
+    padding: 10px;
+    font-size: 16px;
+    color: white; 
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 20;
+   }
+  
+   .smallDcreen{
+    right: 0%;
+   }
+   /* //768 */
+   
+    /* @media (max-width: 480px)  {
+      flex-direction: column;
+    } */
+   
+
+   @media screen and (max-width: 960px) {
+    .mainNotes{
+      flex-direction: column;
+    }
+   }
+
+  

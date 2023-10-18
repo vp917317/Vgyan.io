@@ -1,0 +1,100 @@
+/* NewspaperAnalysis.css */
+
+.article {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  
+  .article h2 {
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 20px;
+    /* color: rgb(38, 42, 41);  */
+    color: #40e0d0;
+    border-radius: 10px;
+    /* background-color: #faebd7; */
+    border: 3px solid purple;
+    padding: 20px;
+    text-shadow: #333;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
+  .article p {
+    text-align: justify;
+    color: white; /* Example style */
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .article h3 {
+   text-align: center;
+   font-size: 18px;
+   display: inline-block; /* Make the heading inline-block so the circle surrounds it */
+    background-color: red;
+    margin-bottom: 10px;
+  background-image:
+    linear-gradient(
+      to right,
+      rgb(109, 222, 126),
+      rgb(233, 221, 146) 30%
+    );
+    border: 2px solid #333; /* Border around the circle */
+    border-radius: 50%; /* Make the border a circle using border-radius */
+    padding: 10px;
+    color: rgb(16, 14, 14);
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15;
+  }
+
+  .article ul , ol{
+    list-style-type: disc;
+    display: inline-block; /* Make the heading inline-block so the circle surrounds it */
+    /* background-color: #f0f0f0; Background color of the circle */
+    border: 2px solid #186d82; /* Border around the circle */
+    border-radius: 10px; /* Make the border a circle using border-radius */
+    padding: 5px;
+    font-size: 16px;
+    color: rgb(161, 11, 51);
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20;
+    margin-bottom: 60px;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .article li{
+    margin-bottom: 10px;
+  }
+
+  .curvedUnderline {
+     position: relative;
+    display: inline-block;
+    padding-Bottom: 10px; 
+}
+
+.curvedUnderline h2 {
+    margin: 0;
+    position: relative;
+    z-index: 1; /* to ensure the text stays above the pseudo element */
+}
+
+.curvedUnderline::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, red, green);
+    border-radius: 0% 50% 50% 0; 
+    z-index: 0;  
+}
+
+  

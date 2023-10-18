@@ -1,0 +1,29 @@
+{
+  "name": "vgyan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "autoprefixer": "10.4.16",
+    "axios": "^1.5.0",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.2",
+    "firebase": "^10.4.0",
+    "next": "13.5.2",
+    "postcss": "8.4.30",
+    "react": "18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.16.0",
+    "swiper": "^10.3.0",
+    "tailwindcss": "3.3.3"
+  }
+}
