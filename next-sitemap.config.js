@@ -46,11 +46,11 @@ module.exports = {
         },
       ],
       additionalSitemaps: [
-        'https://www.vgyan.io/NewspaperAnalysis',
-        'https://www.vgyan.io/Editorial',
-        'https://www.vgyan.io/Notes',
-        'https://www.vgyan.io/SmartNotes',
-        'https://www.vgyan.io/SmartStudent',
+        'https://www.vgyan.io/NewspaperAnalysis.xml',
+        'https://www.vgyan.io/Editorial.xml',
+        'https://www.vgyan.io/Notes.xml',
+        'https://www.vgyan.io/SmartNotes.xml',
+        'https://www.vgyan.io/SmartStudent.xml',
       ],
     },
   }

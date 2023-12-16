@@ -17,8 +17,8 @@ Host: https://www.vgyan.io
 
 # Sitemaps
 Sitemap: https://www.vgyan.io/sitemap.xml
-Sitemap: https://www.vgyan.io/NewspaperAnalysis
-Sitemap: https://www.vgyan.io/Editorial
-Sitemap: https://www.vgyan.io/Notes
-Sitemap: https://www.vgyan.io/SmartNotes
-Sitemap: https://www.vgyan.io/SmartStudent
+Sitemap: https://www.vgyan.io/NewspaperAnalysis.xml
+Sitemap: https://www.vgyan.io/Editorial.xml
+Sitemap: https://www.vgyan.io/Notes.xml
+Sitemap: https://www.vgyan.io/SmartNotes.xml
+Sitemap: https://www.vgyan.io/SmartStudent.xml
