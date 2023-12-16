@@ -6,6 +6,32 @@ import Nav from "../components/Nav";
 const PrivacyPolicy = () => {
   return (
     <>
+    <Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Privacy policy - Vgyan.io </title>
+        <meta name="description" content="privacy policy of vgyan.io" />
+        {/* Add other SEO-related meta tags here */}
+         {/* JSON-LD structured data for Article */}
+         <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Privacy Policy- vgyan.io",
+              "description": "Privacy policy of vgyan.io",
+              "publisher": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+
+      </Head>
       <Nav bgColor="purple" />
       <div className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-black p-8">
         <div className="max-w-4xl mx-auto">

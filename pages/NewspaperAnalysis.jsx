@@ -65,6 +65,34 @@ function NewspaperAnalysis() {
 
   return (
     <>
+    <Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Vgyan Newspaper Analysis Today</title>
+        <meta name="description" content="General Science Notes AI, your intelligent note-taking assistant.You can generate comprehensive notes on any topic, whether
+              it's from NCERT books, or any other books , articles , topics etc.." />
+        {/* Add other SEO-related meta tags here */}
+         {/* JSON-LD structured data for Article */}
+         <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Vgyan Newspaper Analysis Today ",
+              "description": " General Science Notes AI, your intelligent note-taking assistant.You can generate comprehensive notes on any topic, whether
+              it's from NCERT books, or any other books , articles , topics etc..",
+              "publisher": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+
+      </Head>
       {/* {isLoading ? (
         <Loader text="Loading Today's Analysis" time="3000" />
       ) : ( */}

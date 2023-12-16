@@ -1,14 +1,12 @@
-import React , {useEffect , useState} from 'react'
-import '../styles/index.css'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import Loader from '../components/Loader'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import React, { useEffect, useState } from "react";
+import "../styles/index.css";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import Loader from "../components/Loader";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 function NotesTools() {
-  
-  
   const [isLoading, setIsLoading] = useState(false); // Initialize isLoading as false
   const router = useRouter();
 
@@ -34,16 +32,42 @@ function NotesTools() {
           background: "#faebd7",
         }}
       >
-        <Loader text="Loading General Science Notes Machine ..." /> 
-        
+        <Loader text="Loading General Science Notes Machine ..." />
       </div>
     );
   }
 
-   
   return (
     <>
-      
+      <Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Vgyan GS Notes </title>
+        <meta
+          name="description"
+          content="Navigating the vast realm of General Studies for UPSC can often feel like traversing an endless ocean of information. Every aspirant knows the importance of concise, yet comprehensive notes that make revision efficient and effective. Introducing GS Notes a groundbreaking tool tailored specifically for the modern-day UPSC aspirant."
+        />
+        {/* Add other SEO-related meta tags here */}
+        {/* JSON-LD structured data for Article */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Vgyan GS Notes",
+              "description": " Navigating the vast realm of General Studies for UPSC can often feel like traversing an endless ocean of information. Every aspirant knows the importance of concise, yet comprehensive notes that make revision efficient and effective. Introducing "GS Notes", a groundbreaking tool tailored specifically for the modern-day UPSC aspirant.
+              ": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+      </Head>
+
       <Nav />
       {/* {isLoading ? (<Loader text="Loading" time="3000" />) : ( */}
       <div
@@ -52,22 +76,28 @@ function NotesTools() {
       >
         <div className="curved-underline">
           <h2 className="text-3xl font-bold mb-4" style={{ margin: 0 }}>
-          GS Notes: Revolutionizing  
+            GS Notes: Revolutionizing
             <span className="text-purple-600 italic"> UPSC Preparation </span>
             with AI-Powered Study Assistance
           </h2>
         </div>
 
         <p className="mb-4" style={{ marginTop: "30px" }}>
-        Navigating the vast realm of General Studies for UPSC can often feel like traversing an endless ocean of information. Every aspirant knows the importance of concise, yet comprehensive notes that make revision efficient and effective. Introducing "GS Notes", a groundbreaking tool tailored specifically for the modern-day UPSC aspirant.
+          Navigating the vast realm of General Studies for UPSC can often feel
+          like traversing an endless ocean of information. Every aspirant knows
+          the importance of concise, yet comprehensive notes that make revision
+          efficient and effective. Introducing "GS Notes", a groundbreaking tool
+          tailored specifically for the modern-day UPSC aspirant.
         </p>
         <p className="mb-4">
           <p style={{ color: "#1f5156", fontWeight: "bold", fontSize: "18px" }}>
-          let GS Notes be your trusted companion. Dive into topics, explore the intricacies of general studies, and arm yourself with notes that empower your revision.
+            let GS Notes be your trusted companion. Dive into topics, explore
+            the intricacies of general studies, and arm yourself with notes that
+            empower your revision.
           </p>
           <br></br>
           <p style={{ color: "red", fontWeight: "bold", fontSize: "16px" }}>
-            Join the Revolution ! 
+            Join the Revolution !
           </p>
           <br></br>
           Don't wait create notes on your favorite topic .
@@ -97,12 +127,13 @@ function NotesTools() {
             Explore the Tool
           </Link>
         </div>
-        <h4 className="text-2xl font-bold mb-4">
-        Key Features of GS Notes:
-        </h4>
+        <h4 className="text-2xl font-bold mb-4">Key Features of GS Notes:</h4>
         <ul className="list-disc pl-6 mb-4">
           <li className="mb-2">
-            <strong>Instant Note Creation:</strong> Just input your desired topic and watch in amazement as GS Notes crafts a comprehensive set of notes in a mere 10 seconds. Time is of the essence in UPSC preparation, and GS Notes ensures you save every precious second.
+            <strong>Instant Note Creation:</strong> Just input your desired
+            topic and watch in amazement as GS Notes crafts a comprehensive set
+            of notes in a mere 10 seconds. Time is of the essence in UPSC
+            preparation, and GS Notes ensures you save every precious second.
           </li>
           <li className="mb-2">
             <strong>Accuracy & Precision:</strong> Our AI system is trained on a
@@ -111,20 +142,36 @@ function NotesTools() {
             preparation.
           </li>
           <li className="mb-2">
-            <strong>Tailored for UPSC</strong>  Unlike generic note-making tools, GS Notes understands the depth and breadth required for UPSC's General Studies. The notes strike the perfect balance between brevity and detail, ensuring you don't miss out on crucial points.
+            <strong>Tailored for UPSC</strong> Unlike generic note-making tools,
+            GS Notes understands the depth and breadth required for UPSC's
+            General Studies. The notes strike the perfect balance between
+            brevity and detail, ensuring you don't miss out on crucial points.
           </li>
           <li className="mb-2">
-            <strong>Deep Learning Intelligence:</strong> At the heart of GS Notes lies a state-of-the-art AI engine that has been trained on a vast array of UPSC-relevant materials. This ensures the quality and relevance of every note it produces.
+            <strong>Deep Learning Intelligence:</strong> At the heart of GS
+            Notes lies a state-of-the-art AI engine that has been trained on a
+            vast array of UPSC-relevant materials. This ensures the quality and
+            relevance of every note it produces.
           </li>
           <li className="mb-2">
-            <strong>Dynamic Update Capabilities:</strong> As the world of general studies is ever-evolving, GS Notes ensures that you stay updated. The tool continually updates its knowledge base, reflecting recent developments and current affairs pertinent to the UPSC syllabus.
+            <strong>Dynamic Update Capabilities:</strong> As the world of
+            general studies is ever-evolving, GS Notes ensures that you stay
+            updated. The tool continually updates its knowledge base, reflecting
+            recent developments and current affairs pertinent to the UPSC
+            syllabus.
           </li>
         </ul>
 
         <h4 className="text-2xl font-bold mb-4">Why Trust Our Tool?</h4>
 
         <p className="mb-4">
-        Your preparation is personal, and we respect that. GS Notes is built on a platform that prioritizes user privacy, ensuring that your study topics and materials remain confidential. With an intuitive interface, GS Notes facilitates a seamless study experience. Whether you're deep-diving into a historical event or exploring current international relations, the tool is designed to serve aspirants with varying tech proficiency.
+          Your preparation is personal, and we respect that. GS Notes is built
+          on a platform that prioritizes user privacy, ensuring that your study
+          topics and materials remain confidential. With an intuitive interface,
+          GS Notes facilitates a seamless study experience. Whether you're
+          deep-diving into a historical event or exploring current international
+          relations, the tool is designed to serve aspirants with varying tech
+          proficiency.
         </p>
 
         <p className="mb-4">
@@ -134,9 +181,9 @@ function NotesTools() {
 
         <p className="mb-4">
           Now's the time to elevate your UPSC preparation strategy. Try out our
-          premium product - <strong>Notes Making for UPSC</strong> - and
-          let AI be your companion in your journey to cracking one of India's
-          toughest exams.
+          premium product - <strong>Notes Making for UPSC</strong> - and let AI
+          be your companion in your journey to cracking one of India's toughest
+          exams.
         </p>
         <div className="flex justify-center items-center h-full">
           <Link
@@ -159,7 +206,7 @@ function NotesTools() {
       {/* )} */}
       <Footer />
     </>
-  )
+  );
 }
 
-export default NotesTools
+export default NotesTools;

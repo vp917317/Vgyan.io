@@ -52,7 +52,47 @@ function EditorialTool() {
   }
 
   return (
+
     <>
+
+
+<Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Vgyan Editorial Analysis Tool</title>
+        <meta name="description" content="Welcome to the UPSC Editorial Analysis Tool, your go-to resource for
+            insightful analysis of daily newspaper editorials tailored to
+            benefit UPSC aspirants. Our cutting-edge AI technology is designed
+            to dissect and decode editorials authored by experts, offering a
+            comprehensive understanding of diverse perspectives on crucial
+            topics." />
+        {/* Add other SEO-related meta tags here */}
+         {/* JSON-LD structured data for Article */}
+         <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Vgyan editorial analysis tool",
+              "description": "Welcome to the UPSC Editorial Analysis Tool, your go-to resource for
+              insightful analysis of daily newspaper editorials tailored to
+              benefit UPSC aspirants. Our cutting-edge AI technology is designed
+              to dissect and decode editorials authored by experts, offering a
+              comprehensive understanding of diverse perspectives on crucial
+              topics.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+
+      </Head>
+
       <Nav />
       {/* {isLoading ? (
         <Loader text="Loading" time="3000" />

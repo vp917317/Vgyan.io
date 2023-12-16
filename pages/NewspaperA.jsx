@@ -61,6 +61,35 @@ function NewspaperA() {
   
   return (
     <>
+  
+  <Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Vgyan Newspaper Analysis Tool</title>
+        <meta name="description" content="Now you can get newspaper analysis ( daily current affairs )for UPSC  at just one click in under 10 seconds . With the precision of AI . Isn't it great ? So let's try out our premuiun product NewspaperAnalysis for UPSC ." />
+        {/* Add other SEO-related meta tags here */}
+         {/* JSON-LD structured data for Article */}
+         <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Vgyan Newspaper Analysis Tool",
+              "description": "Now you can get newspaper analysis ( daily current affairs )for UPSC  at just one click in under 10 seconds . With the precision of AI . Isn't it great ? So let's try out our premuiun product NewspaperAnalysis for UPSC .",
+              "publisher": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+
+      </Head>
+
+
     <Nav />
     {/* {isLoading ? (<Loader text="Loading" time="3000" />) : ( */}
     

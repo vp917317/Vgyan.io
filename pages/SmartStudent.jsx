@@ -145,6 +145,41 @@ function SmartStudent() {
 
   return (
     <>
+
+<Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Vgyan Smart Student  </title>
+        <meta name="description" content="Dive into topics, explore the intricacies of day to day
+              problems of aspirant or students, and empower your vision. Beyond academics, SmartStudentAI can answers to personal
+              questions. Whether it's advice on time management, study
+              strategies, or career planning, the AI is there to provide
+              guidance." />
+        {/* Add other SEO-related meta tags here */}
+         {/* JSON-LD structured data for Article */}
+         <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Vgyan Smart Student ",
+              "description": "Dive into topics, explore the intricacies of day to day
+              problems of aspirant or students, and empower your vision. Beyond academics, SmartStudentAI can answers to personal
+              questions. Whether it's advice on time management, study
+              strategies, or career planning, the AI is there to provide
+              guidance.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+
+      </Head>
       {/* {isLoaderLoading ? (
         <Loader text="Fetching the Smart Student-AI Machine" time="4000" />
       ) : ( */}

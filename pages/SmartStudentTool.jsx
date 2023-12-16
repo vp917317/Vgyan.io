@@ -40,6 +40,40 @@ function SmartStudentool() {
 
   return (
     <>
+    <Head>
+        {/* Set the page title and meta description for SEO */}
+        <title>Vgyan Smart Student AI </title>
+        <meta name="description" content="Smart StudentAI is an advanced Artificial Intelligence (AI) tool
+            designed to provide comprehensive support to students, whether they
+            are exam aspirants or school students. This cutting-edge solution
+            serves as a virtual educational companion, addressing a wide range
+            of student queries and concerns." />
+        {/* Add other SEO-related meta tags here */}
+         {/* JSON-LD structured data for Article */}
+         <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Website",
+              "headline": "Vgyan Smart Student AI",
+              "description": "Smart StudentAI is an advanced Artificial Intelligence (AI) tool
+              designed to provide comprehensive support to students, whether they
+              are exam aspirants or school students. This cutting-edge solution
+              serves as a virtual educational companion, addressing a wide range
+              of student queries and concerns.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "vgyan.io", 
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://imgtr.ee/images/2023/09/23/0ab9e1d72544a7035e90772385108976.jpeg" 
+                }
+              }
+            }
+          `}
+        </script>
+
+      </Head>
       <Nav />
       {/* {isLoading ? (
         <Loader text="Loading" time="3000" />
