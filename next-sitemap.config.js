@@ -9,11 +9,11 @@ module.exports = {
     exclude: ['/protected-page', '/awesome/secret-page'],
     alternateRefs: [
       {
-        href: 'https://es.example.com',
+        href: 'https://es.vgyan.io',
         hreflang: 'es',
       },
       {
-        href: 'https://fr.example.com',
+        href: 'https://fr.vgyan.io',
         hreflang: 'fr',
       },
     ],
@@ -45,12 +45,12 @@ module.exports = {
           disallow: ['/sub-path-1', '/path-2'],
         },
       ],
-      additionalSitemaps: [
-        'https://www.vgyan.io/NewspaperAnalysis.xml',
-        'https://www.vgyan.io/Editorial.xml',
-        'https://www.vgyan.io/Notes.xml',
-        'https://www.vgyan.io/SmartNotes.xml',
-        'https://www.vgyan.io/SmartStudent.xml',
-      ],
+    //   additionalSitemaps: [
+    //     'https://www.vgyan.io/NewspaperAnalysis.xml',
+    //     'https://www.vgyan.io/Editorial.xml',
+    //     'https://www.vgyan.io/Notes.xml',
+    //     'https://www.vgyan.io/SmartNotes.xml',
+    //     'https://www.vgyan.io/SmartStudent.xml',
+    //   ],
     },
   }
