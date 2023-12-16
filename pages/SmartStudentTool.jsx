@@ -4,7 +4,10 @@ import { useRouter } from "next/router";
 import Footer from "../components/Footer";
 import Loader from "../components/Loader";
 import Link from "next/link";
-import '../styles/index.css'
+import '../styles/index.css';
+import Head from 'next/head';;
+
+
 function SmartStudentool() {
   
   const [isLoading, setIsLoading] = useState(false); // Initialize isLoading as false

@@ -7,7 +7,8 @@ import Link from "next/link";
 import ToolsNav from "../components/ToolsNav";
 import { collection, getDoc , doc} from 'firebase/firestore';
 import firestore from '../Firebase';
-import '../styles/index.css'
+import '../styles/index.css';
+import Head from 'next/head';
 
 function NewspaperAnalysis() {
   const [htmlData, setHtmlData] = useState("");

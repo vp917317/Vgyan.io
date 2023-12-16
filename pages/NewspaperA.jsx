@@ -5,7 +5,8 @@ import Footer from "../components/Footer";
 import Loader from "../components/Loader";
 import "../styles/News.css";
 import { useRouter } from "next/router";
-import '../styles/index.css'
+import '../styles/index.css';
+import Head from 'next/head';
 
 
 function NewspaperA() {

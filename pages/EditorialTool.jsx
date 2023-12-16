@@ -5,7 +5,8 @@ import Loader from "../components/Loader";
 import Footer from "../components/Footer";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import '../styles/index.css'
+import '../styles/index.css';
+import Head from 'next/head';
 
 function EditorialTool() {
   // const [isLoading, setisLoading] = useState(true);

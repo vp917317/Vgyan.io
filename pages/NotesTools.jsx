@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Loader from "../components/Loader";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Head from 'next/head';
 
 function NotesTools() {
   const [isLoading, setIsLoading] = useState(false); // Initialize isLoading as false

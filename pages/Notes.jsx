@@ -6,7 +6,7 @@ import Loader from "../components/Loader";
 import '../styles/index.css'
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-
+import Head from 'next/head';
 import Nav from "../components/Nav";
 
 function Notes() {

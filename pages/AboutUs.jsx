@@ -7,6 +7,7 @@ import img from "../public/images/log.jpeg";
 import "../styles/main.css";
 import '../styles/index.css'
 import Skills from "@/components/Skills";
+import Head from 'next/head';
 
 // function AboutUs() {
   

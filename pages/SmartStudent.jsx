@@ -5,6 +5,7 @@ import '../styles/index.css'
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import Head from 'next/head';
 
 function SmartStudent() {
   const [inputValue, setInputValue] = useState("");

@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/index.css'
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import Head from 'next/head';
 
 const PrivacyPolicy = () => {
   return (

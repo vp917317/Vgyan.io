@@ -4,6 +4,7 @@ import '../styles/index.css'
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Contac from "@/components/Contact";
+import Head from 'next/head';
 
 
 function ContactUs() {
